@@ -1,0 +1,22 @@
+{
+  "name": "itdany_portfolio",
+  "version": "1.0.0",
+  "description": "Simple personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/itdany/itdany_portfolio.git"
+  },
+  "author": "Danijel D.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itdany/itdany_portfolio/issues"
+  },
+  "homepage": "https://github.com/itdany/itdany_portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
